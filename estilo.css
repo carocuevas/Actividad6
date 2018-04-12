@@ -49,23 +49,27 @@ body{
 .header{
 	text-transform: uppercase;
 	text-align: center;
-	height: 10rem;
+	border-bottom-style: dotted;
+	border-color: #bbb;
 }
 .headerimg{
-	border-radius: 200px;
+	border-radius: 300px;
 	border: solid 4px #eee;
-	width: 15vw;
+	width: 20vw;
 	height: inherit;
 	font-family: sans-serif;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    top: 100px;
 }
-.bigdiv{
+main{
 	background-color: white;
 	max-width: 1070px;
 	margin: 0 auto;
-	float: center;
+	overflow: auto;
+	margin-bottom: 15vh;
 }
 .acercade{
 	text-align: justify;
@@ -97,6 +101,7 @@ p .bloque{
 aside{
 	float:left;
 	box-sizing: border-box;
+	padding: 1em 1em 1em 1em;
 }
 .contacto{
 	clear: both;
@@ -107,7 +112,34 @@ aside{
 	margin: 0.3em;
 	padding: 0.1em 0 0 0.3em;
 	text-transform: uppercase;
+	box-sizing: border-box;
 }
 .underline{
-	text-decoration: underline;
+	border-bottom-style: dotted;
+	display: block;
+	border-width: 0.1vh;
+	border-color: #ccc;
+}
+.fa-star{
+	color: #ff7e00;
+	text-align: right;
+	float: right;
+	box-sizing: border-box;
+}
+.fa-star .grey{
+	color: #eee;
+	text-align: right;
+	box-sizing: border-box;
+	float: right;
+}
+.hobbies{
+	background-color: #ff7e00;
+	color: white;
+	margin: 0.3em;
+	padding: 0.2em 0.5em 0.3em 0.5em;
+	box-sizing: border-box;
+	float: left;
+}
+section{
+	padding: 1em 1em 1em 1em;
 }
