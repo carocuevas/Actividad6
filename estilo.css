@@ -1,0 +1,113 @@
+body{
+	margin:0px;
+	font-family: sans-serif;
+	background-color: #eee;
+}
+.row{
+	clear: both;
+	box-sizing: border-box;
+}
+
+[class^="col-md-"] {
+	float: left;
+}
+
+.col-md-1{
+	width: 10%;
+}
+.col-md-2{
+	width: 20%;
+}
+.col-md-3{
+	width: 30%;
+}
+.col-md-4{
+	width: 40%;
+}
+.col-md-5{
+	width: 50%;
+}
+.col-md-6{
+	width: 60%;
+}
+.col-md-7{
+	width: 70%;
+}
+.col-md-8{
+	width: 80%;
+}
+.col-md-9{
+	width: 90%;
+}
+.col-md-10{
+	width: 100%;
+}
+
+.col-md-offset-1{
+	margin-left:10%;
+}
+.header{
+	text-transform: uppercase;
+	text-align: center;
+	height: 10rem;
+}
+.headerimg{
+	border-radius: 200px;
+	border: solid 4px #eee;
+	width: 15vw;
+	height: inherit;
+	font-family: sans-serif;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigdiv{
+	background-color: white;
+	max-width: 1070px;
+	margin: 0 auto;
+	float: center;
+}
+.acercade{
+	text-align: justify;
+	font-family: sans-serif;
+}
+.educacion{
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+.experiencia{
+	box-sizing: border-box;
+}
+h1{
+	font-family: sans-serif;
+	padding: 7rem 0 0 1rem;
+
+}
+h3{
+	text-transform: uppercase;
+	color: #ff7e00;
+	font-family: sans-serif;
+}
+p .bloque{
+	background-color: #eee;
+	padding: 2em;
+	margin: 1em 0 1em 0;
+}
+aside{
+	float:left;
+	box-sizing: border-box;
+}
+.contacto{
+	clear: both;
+}
+.skills{
+	background-color: #ff7e00;
+	color: white;
+	margin: 0.3em;
+	padding: 0.1em 0 0 0.3em;
+	text-transform: uppercase;
+}
+.underline{
+	text-decoration: underline;
+}
